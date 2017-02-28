@@ -1,8 +1,8 @@
 var accumulate = require('./accumulate');
 
-describe('accumulate()', function() {
+xdescribe('accumulate()', function() {
 
-  it('accumulation empty', function() {
+  xit('accumulation empty', function() {
     var accumulator = function(e) { return e * e; };
     expect(accumulate([], accumulator)).toEqual([]);
   });
