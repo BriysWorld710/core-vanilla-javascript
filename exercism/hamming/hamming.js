@@ -1,10 +1,7 @@
 var Hamming = function() {};
 
 Hamming.prototype.checkForSameLength = function(firstStrand, secondStrand) {
-  if (firstStrand.length === secondStrand.length) {
-    return true;
-  }
-  return false;
+  return firstStrand.length === secondStrand.length ? true : false
 }
 
 Hamming.prototype.compute = function(firstStrand, secondStrand) {
