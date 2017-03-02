@@ -13,7 +13,7 @@ var Garden = function(diagram, students=[
   var plants = {
     C: "clover",
     G: "grass",
-    V: "violet",
+    V: "violets",
     R: "radishes"
   }
 
@@ -36,25 +36,15 @@ var Garden = function(diagram, students=[
       return plants[letter]
     })
   })
-  console.log(plantAssignments)
 
   //loop through this.students, create this[students[i]] = [plantAssignments[i]]
   i = 0
   while (i < this.students.length) {
-    console.log(this.students[i])
-    let combined = this.students[i] + plantAssignments[i]
-    console.log('----->',combined)
-    console.log(this.students[i])
+    this[students[i].toLowerCase()] = plantAssignments[i]
     i++
   }
 
-
 };
 
-// Garden.prototype.findPlants = function() {
-//   //
-//   // Your solution to the exercise goes here
-//   //
-// };
 
 module.exports = Garden;
