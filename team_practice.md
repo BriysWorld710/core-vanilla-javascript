@@ -54,7 +54,7 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 ### Day 3 - Exercism
 
 - [ ] Solve `/exercism/kindergarten-garden`
-- [ ] Solve `/exercism/nth-prime`
+- [x] Solve `/exercism/nth-prime`
 - [ ] Solve `/exercism/palindrome-products`
 - [x] Solve `/exercism/say`
 - [ ] Solve `/exercism/queen-attack`

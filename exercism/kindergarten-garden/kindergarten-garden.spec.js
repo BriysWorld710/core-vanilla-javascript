@@ -2,7 +2,7 @@ var Garden = require('./kindergarten-garden');
 
 describe('Garden', function () {
 
-  it('for Alice', function () {
+  xit('for Alice', function () {
     expect(new Garden('RC\nGG').alice)
       .toEqual(['radishes', 'clover', 'grass', 'grass']);
   });
@@ -96,7 +96,7 @@ describe('Disordered class', function () {
   var students = ['Samantha', 'Patricia', 'Xander', 'Roger'];
   var garden = new Garden(diagram, students);
 
-  xit('Patricia', function () {
+  it('Patricia', function () {
     expect(garden.patricia)
       .toEqual(['violets', 'clover', 'radishes', 'violets']);
   });
