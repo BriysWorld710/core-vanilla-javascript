@@ -36,7 +36,7 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 
 - [x] Solve `/exercism/secret-handshake`
 - [ ] Solve `/exercism/wordy`
-- [ ] Solve `/exercism/largest-series-product`
+- [x] Solve `/exercism/largest-series-product`
 - [ ] Solve `/exercism/robot-simulator`
 - [ ] Solve `/exercism/rna-transcription`
 - [x] Solve `/exercism/bob`
@@ -54,9 +54,9 @@ Exercism provides a number of practice problems along with unit tests to ensure 
 ### Day 3 - Exercism
 
 - [ ] Solve `/exercism/kindergarten-garden`
-- [ ] Solve `/exercism/nth-prime`
+- [x] Solve `/exercism/nth-prime`
 - [ ] Solve `/exercism/palindrome-products`
-- [ ] Solve `/exercism/say`
+- [x] Solve `/exercism/say`
 - [ ] Solve `/exercism/queen-attack`
 
 #### Stretch
