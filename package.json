@@ -1,0 +1,26 @@
+{
+  "name": "core-vanilla-javascript",
+  "version": "1.0.0",
+  "description": "This repo contains resources, challenges and plans for learning the basics of Javascripts.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BriysWorld710/core-vanilla-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BriysWorld710/core-vanilla-javascript/issues"
+  },
+  "homepage": "https://github.com/BriysWorld710/core-vanilla-javascript#readme"
+}

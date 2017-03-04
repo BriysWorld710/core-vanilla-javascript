@@ -4,7 +4,7 @@ const Converter = require('./all-your-base');
 
 const converter = new Converter();
 
-describe('Converter', function () {
+xdescribe('Converter', function () {
 
   xit('single bit one to decimal', function () {
     expect(converter.convert([1], 2, 10)).toEqual([1]);
