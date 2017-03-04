@@ -3,25 +3,25 @@ var Sudoku = require('./sudoku');
 describe('Sudoku solver', function() {
 
   // This board is bad because the middle column (c5) has the value ‘1’ twice.
-  it('Recognizes a bad board', function() {
+  xit('Recognizes a bad board', function() {
     var sudoku = new Sudoku("..9.7...5..2.1.9..1...28....7...5..1..851.....5....3.......3..68........21.....87");
     expect(sudoku.solve()).toBe("ERROR: Bad Board");
   });
 
   // This puzzle cannot be solved, because the middle row (r5) has the value ‘2’ twice.
-  it('Recognizes a bad board (duplicate given in row)', function() {
+  xit('Recognizes a bad board (duplicate given in row)', function() {
     var sudoku = new Sudoku(".4.1..35.............2.5......4.89..26.....12.5.3....7..4...16.6....7....1..8..2.");
     expect(sudoku.solve()).toBe("ERROR: Bad Board");
   });
 
   // This puzzle cannot be solved, because the left-most square of the middle row (r5c1) has no possible candidates.
-  it('Detects an unsolvable square', function() {
+  xit('Detects an unsolvable square', function() {
     var sudoku = new Sudoku("..9.287..8.6..4..5..3.....46.........2.71345.........23.....5..9..4..8.7..125.3..");
     expect(sudoku.solve()).toBe("ERROR: Bad Board");
   });
 
   // This puzzle cannot be solved, because the center box (b5) has no possible candidates for the value ‘4’.
-  xit('Detects an unsolvable box', function() {
+  it('Detects an unsolvable box', function() {
     var sudoku = new Sudoku(".9.3....1....8..46......8..4.5.6..3...32756...6..1.9.4..1......58..2....2....7.6.");
     expect(sudoku.solve()).toBe("ERROR: Bad Board");
   });

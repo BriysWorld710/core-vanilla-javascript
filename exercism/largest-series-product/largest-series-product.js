@@ -15,7 +15,7 @@ Series.prototype.largestProduct = function(seriesNumber) {
   }
 
   let largestProduct = 0
-  for (let i = 0; i <= this.number.length-seriesNumber; i++) {
+  for (let i = 0; i <= this.number.length - seriesNumber; i++) {
     let currentSeries = this.number.slice(i, seriesNumber + i).split('')
     let currentProduct = currentSeries.reduce(function(accumulator, next) {
       return accumulator * next
